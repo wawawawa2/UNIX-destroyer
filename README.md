@@ -10,7 +10,6 @@
 
 code:
 ```python
-# dont_run_this_code.py
 import os
 def main(sudo_password):
     if os.name != 'nt':
