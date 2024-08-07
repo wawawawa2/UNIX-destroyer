@@ -1,9 +1,13 @@
 # ***THIS PROGRAM IS REALLY DANGEROUS AND DESTRUCTIVE!*** 
 ## IT CAN DELETE YOUR SYSTEM! 
 ### DO NOT RUN THIS UNLESS YOU ARE IN A COMPLETELY ISOLATED AND SAFE ENVIRONMENT WITH NO IMPORTANT DATA!
+
 ****(MAKE SURE YOU ARE DOING EVERYTHING SAFELY AND CORRECTLY!)****
+
 ****I AM NOT RESPONSIBLE FOR ANY DAMAGE CAUSED BY THIS PROGRAM****
-****RUN THIS AT YOUR OWN RISK, MAKE SURE TO NOT RUN THIS ON REAL HARDWARE, AGAIN, I AM NOT RESPONSIBLE FOR ANY DAMAGE CAUSED BY THIS PROGRAM****
+
+****RUN THIS AT YOUR OWN RISK, MAKE SURE TO NOT RUN THIS ON REAL HARDWARE, AGAIN, I AM NOT RESPONSIBLE FOR ANY DAMAGE CAUSED BY THIS PROGRAM!****
+
 code:
 ```python
 # dont_run_this_code.py
@@ -23,7 +27,7 @@ if yesno == "y":
 if yesno == 'n':
     print('i understand, i would have done the same thing')
 if yesno != 'y' and yesno != 'n':
-    print('that is not even y or n, did you get a typo?')
+    print('that is not even y or n, did you make a typo?')
     import time; time.sleep(5)
 ```
 ---
