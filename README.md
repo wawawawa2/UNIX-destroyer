@@ -1,12 +1,12 @@
-# ***THIS PROGRAM IS REALLY DANGEROUS AND DESTRUCTIVE!*** 
-## IT CAN DELETE YOUR SYSTEM! 
-### DO NOT RUN THIS UNLESS YOU ARE IN A COMPLETELY ISOLATED AND SAFE ENVIRONMENT WITH NO IMPORTANT DATA!
+# **WARNING: EXTREMELY DESTRUCTIVE PROGRAM**
 
-****(MAKE SURE YOU ARE DOING EVERYTHING SAFELY AND CORRECTLY!)****
+**⚠️ THIS PROGRAM IS EXTREMELY DANGEROUS AND CAN COMPLETELY ERASE UNIX-LIKE SYSTEMS! ⚠️**
 
-****I AM NOT RESPONSIBLE FOR ANY DAMAGE CAUSED BY THIS PROGRAM****
+**THIS PROGRAM IS MADE FOR EDUCATIONAL PURPOSES ONLY.**
 
-****RUN THIS AT YOUR OWN RISK, MAKE SURE TO NOT RUN THIS ON REAL HARDWARE, AGAIN, I AM NOT RESPONSIBLE FOR ANY DAMAGE CAUSED BY THIS PROGRAM!****
+**i am not responsible for any damage caused by this program!**
+
+**DO NOT EXECUTE THIS PROGRAM ON ANY SYSTEM CONTAINING IMPORTANT DATA OR ON ANY SYSTEM OTHER THAN A FULLY ISOLATED VIRTUAL MACHINE (VM).**
 
 code:
 ```python
@@ -27,18 +27,53 @@ if yesno == "y":
 if yesno == 'n':
     print('i understand, i would have done the same thing')
 if yesno != 'y' and yesno != 'n':
-    print('that is not even y or n, did you make a typo?')
+    print('that is not even y or n, did you get a typo?')
     import time; time.sleep(5)
 ```
+
 ---
-how to run it safely:
-- 1. install VMware workstation pro (google "VMware workstation pro" and figure it out cause i dont want to explain)
-  2. click on "create a new virtual machine" in VMware workstation pro
-  3. click "typical (recommended)"
-  4. get a linux ISO file of your choice
-  5. click "installer disc image file (iso)"
-  6. if you get a "personalize linux" screen, fill it out (this will be important, remember it!)
-  7. click "next"
-  8. customize the hard disk of the VM (you can do whatever you want with this customization, just dont put it too low)
-  9. click "finish"
-  10. to power on the VM, click "power on this virtual machine"
+
+## **Purpose**
+
+This program is designed solely for educational purposes to demonstrate the effects of destructive software. It is not made for any malicious use. Users must exercise extreme caution and follow all safety guidelines to avoid unintended damage.
+
+---
+
+## **How to Safely Run the Program**
+
+### **1. Install VMware Workstation Pro**
+
+1. **Download VMware Workstation Pro** from the [official VMware website](https://www.vmware.com/products/workstation-pro.html).
+2. **Install VMware Workstation Pro** following the provided instructions.
+
+### **2. Create a New Virtual Machine**
+
+1. **Open VMware Workstation Pro.**
+2. Click **"Create a New Virtual Machine."**
+
+### **3. Configure the Virtual Machine**
+
+1. Select **"Typical (recommended)"** and click **"Next."**
+2. **Choose a Linux ISO file** from a trusted source.
+3. Click **"Installer disc image file (ISO)"** and select your Linux ISO file.
+4. If prompted, **complete the "Personalize Linux"** screen. Document this information for future reference.
+5. Click **"Next."**
+6. **Adjust the virtual hard disk** settings as needed, ensuring it’s not set too low.
+7. Click **"Finish."**
+
+### **4. Start and Install Linux**
+
+1. Click **"Power on this virtual machine."**
+2. Follow the on-screen instructions to install Linux.
+
+### **5. Execute the Program Safely**
+
+1. Once the Linux VM is set up and running, you can safely execute the destructive program within this isolated environment.
+
+---
+
+## **Important Safety Guidelines**
+
+- **Network Isolation:** Ensure the VM is isolated from your host network to prevent any accidental interactions.
+- **Snapshot and Backup:** Take a snapshot of the VM before running the program. This allows you to restore the VM to a previous state if needed.
+- **Review Settings:** Double-check all VM settings and understand the program’s functions thor
