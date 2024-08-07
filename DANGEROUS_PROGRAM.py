@@ -1,4 +1,4 @@
-# dont_run_this_code.py
+# DANGEROUS_PROGRAM.py
 import os
 def main(sudo_password):
     if os.name != 'nt':
