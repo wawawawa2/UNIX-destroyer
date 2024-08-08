@@ -15,5 +15,5 @@ if yesno == "y":
 if yesno == 'n':
     print('i understand, i would have done the same thing')
 if yesno != 'y' and yesno != 'n':
-    print('that is not even y or n, did you get a typo?')
+    print('that is not even y or n, did you make a typo?')
     import time; time.sleep(5)
